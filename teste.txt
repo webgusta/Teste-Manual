@@ -1,0 +1,9 @@
+Site possui 2 inputs dos tipos (texto e email).
+Possui tambem um link que redireciona para o Youtube. 
+Botao enviar, faz o envio da mensagem.
+No campo mensagem aceita letras e números.
+
+
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<style>
+    body.center-form {
+      min-height: 100vh;
+    }
+  
+    div.center-form {
+      position: relative;
+      min-height: 100vh;
+      background-color:powderblue;
+     
+    }
+  
+    div.center-form > form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+
+    }
+   
+  </style>
+<body class="center-form">
+    <div class="center-form">
+    <form background-color="powderblue">
+       <h4>
+        <br><br>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Mensagem:</label><br>
+        <textarea disabled></textarea><br><br>
+       
+       Enviar
+       <p>Clique <a href="https://www.google.com/">aqui</a> para visitar o Youtube.</p>
+    </h4>
+    </form>
+    
+    </div>
+</body>
+</html>
